@@ -1,0 +1,16 @@
+D:\0-WorkSpace\SamlRequestTest\SamlRequestTest\bin\Debug\netcoreapp3.1\SamlRequestTest.exe
+D:\0-WorkSpace\SamlRequestTest\SamlRequestTest\bin\Debug\netcoreapp3.1\SamlRequestTest.deps.json
+D:\0-WorkSpace\SamlRequestTest\SamlRequestTest\bin\Debug\netcoreapp3.1\SamlRequestTest.runtimeconfig.json
+D:\0-WorkSpace\SamlRequestTest\SamlRequestTest\bin\Debug\netcoreapp3.1\SamlRequestTest.runtimeconfig.dev.json
+D:\0-WorkSpace\SamlRequestTest\SamlRequestTest\bin\Debug\netcoreapp3.1\SamlRequestTest.dll
+D:\0-WorkSpace\SamlRequestTest\SamlRequestTest\bin\Debug\netcoreapp3.1\SamlRequestTest.pdb
+D:\0-WorkSpace\SamlRequestTest\SamlRequestTest\bin\Debug\netcoreapp3.1\SamlComposer.dll
+D:\0-WorkSpace\SamlRequestTest\SamlRequestTest\bin\Debug\netcoreapp3.1\SamlComposer.pdb
+D:\0-WorkSpace\SamlRequestTest\SamlRequestTest\obj\Debug\netcoreapp3.1\SamlRequestTest.csprojAssemblyReference.cache
+D:\0-WorkSpace\SamlRequestTest\SamlRequestTest\obj\Debug\netcoreapp3.1\SamlRequestTest.AssemblyInfoInputs.cache
+D:\0-WorkSpace\SamlRequestTest\SamlRequestTest\obj\Debug\netcoreapp3.1\SamlRequestTest.AssemblyInfo.cs
+D:\0-WorkSpace\SamlRequestTest\SamlRequestTest\obj\Debug\netcoreapp3.1\SamlRequestTest.csproj.CoreCompileInputs.cache
+D:\0-WorkSpace\SamlRequestTest\SamlRequestTest\obj\Debug\netcoreapp3.1\SamlRequestTest.csproj.CopyComplete
+D:\0-WorkSpace\SamlRequestTest\SamlRequestTest\obj\Debug\netcoreapp3.1\SamlRequestTest.dll
+D:\0-WorkSpace\SamlRequestTest\SamlRequestTest\obj\Debug\netcoreapp3.1\SamlRequestTest.pdb
+D:\0-WorkSpace\SamlRequestTest\SamlRequestTest\obj\Debug\netcoreapp3.1\SamlRequestTest.genruntimeconfig.cache

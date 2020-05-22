@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<saml2p:AuthnRequest xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol" 
-                     ID="_addb5f7126da920196776915e64a9e45" 
-                     IssueInstant="2020-04-29T08:10:34.479Z" 
-                     ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" 
-                     Version="2.0">
-  <saml2:Issuer xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">urn:bocsso:bops_boms_kbm</saml2:Issuer>
-  <saml2p:NameIDPolicy AllowCreate="true"/>
-</saml2p:AuthnRequest>

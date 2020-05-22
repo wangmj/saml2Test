@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamlRequestTest", "SamlRequestTest\SamlRequestTest.csproj", "{E204AD83-DBFC-4BB9-8BBA-6A0DC356F8F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamlRequestTest", "SamlRequestTest\SamlRequestTest.csproj", "{E204AD83-DBFC-4BB9-8BBA-6A0DC356F8F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamlComposer", "SamlComposer\SamlComposer.csproj", "{58BDC544-5453-4E45-BBDE-61823585FFCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamlComposer", "SamlComposer\SamlComposer.csproj", "{58BDC544-5453-4E45-BBDE-61823585FFCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C18829A2-5DC0-4BC3-98E5-CC2CA977CB81}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

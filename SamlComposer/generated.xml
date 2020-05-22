@@ -1,0 +1,8 @@
+﻿<samlp:AuthnRequest xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" 
+                    Destination="https://sts.omr.boc.com/adfs/ls" 
+                    ID="_23242946160746e2847641532eb228e4" 
+                    IssueInstant="2020-05-22T09:27:20:2720Z" 
+                    ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Version="2.0">
+  <saml:Issuer>stress1.0</saml:Issuer>
+  <samlp:NameIDPolicy AllowCreate="true" />
+</samlp:AuthnRequest>

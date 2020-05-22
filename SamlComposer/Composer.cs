@@ -64,28 +64,31 @@ namespace SamlComposer
         /// <param name="id">guid</param>
         /// <param name="dt">时间</param>
         /// <returns>xml格式的samlrequest</returns>
-        public static string GenerateSamlRequest(string issuer, Guid id, DateTime dt)
+        public static string GenerateSamlRequest(string issuer,string destination, Guid id, DateTime dt)
         {
             if (id == null) id = Guid.NewGuid();
             if (dt == null) dt = DateTime.Now;
 
-            XNamespace saml2p = "urn:oasis:names:tc:SAML:2.0:protocol";
-            XNamespace saml2 = "urn:oasis:names:tc:SAML:2.0:assertion";
+            XNamespace samlp = "urn:oasis:names:tc:SAML:2.0:protocol";
+            XNamespace saml = "urn:oasis:names:tc:SAML:2.0:assertion";
 
             XDocument doc = new XDocument(
                 new XDeclaration("1.0", "utf-8", null),
-                new XElement(saml2p + "AuthnRequest",
-                    new XAttribute(XNamespace.Xmlns + "saml2p", saml2p),
+                new XElement(samlp + "AuthnRequest",
+                    new XAttribute(XNamespace.Xmlns + "samlp", samlp),
+                    new XAttribute(XNamespace.Xmlns + "saml", saml),
+                    new XAttribute("Destination", destination),
                     new XAttribute("ID", "_" + id.ToString("N")),
-                    new XAttribute("IssueInstant", dt.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ss")),
+                    new XAttribute("IssueInstant", dt.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ss.msZ")),
                     new XAttribute("ProtocolBinding", "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"),
                     new XAttribute("Version", "2.0"),
-                    new XElement(saml2 + "Issuer", new XAttribute(XNamespace.Xmlns + "saml2", saml2), issuer),
-                    new XElement(saml2p + "NameIDPolicy", new XAttribute("AllowCreate", true))
+                    new XElement(saml + "Issuer",  issuer),
+                    new XElement(samlp + "NameIDPolicy", new XAttribute("AllowCreate", true))
                 ));
             //如果保存到文件，不用xDeclaration的字符串，如果返回字符串，则需要加上不用xDeclaration的字符串
             //doc.Save("d:\\1.xml");
-            return "<?xml version=\"1.0\" encoding=\"UTF - 8\"?>" + doc;
+            return doc.ToString();
+            //return "<?xml version=\"1.0\" encoding=\"utf-8\"?>" + doc;
         }
     }
 }
